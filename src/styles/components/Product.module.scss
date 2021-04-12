@@ -1,0 +1,39 @@
+@import '../theme';
+
+.productContainer {
+    width: 80%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex: none;
+}
+
+.areaPhotoProduct {
+    width: 40%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.areaPhotoProduct > img {
+    width: 75%;
+
+    transition: all .4s;
+}
+
+.rightContainer {
+    width: 60%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-end;
+
+    padding-right: 100px;
+}
+

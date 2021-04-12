@@ -1,0 +1,30 @@
+@import '../theme';
+
+.containerOndeEncontrar {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: $white;
+}
+
+.lojasContainer {
+    width: 80vw;
+    max-height: 100vh;
+    height: max-content;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1800px) {
+    .lojasContainer {
+        margin-top: 20vh;
+    }
+}

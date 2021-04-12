@@ -1,0 +1,63 @@
+@import '../theme';
+
+.containerHeader {
+    width: 100vw;
+    height: 15vh;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    transition: all .4s;
+
+    z-index: 99;
+}
+
+.containerHeader > img {
+    width: 6rem;
+
+    margin-left: 178px;
+    margin-right: 102px;
+
+    filter: invert(0);
+
+    transition: all .4s;
+
+    cursor: pointer;
+}
+
+.linksContainer {
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    padding-left: 98px;
+}
+
+.links {
+    font-size: 18px;
+    font-weight: bold;
+
+    letter-spacing: 4px;
+
+    text-transform: uppercase;
+
+    color: $white;
+
+    transition: all .4s;
+
+    cursor: pointer;
+}
+
+.underlineLink {
+    width: 90%;
+    height: 0px;
+    border: 1px solid $white;
+
+    transition: all .4s;
+}
